@@ -1,0 +1,19 @@
+.backdrop {
+    font-family: 'Current', sans-serif;
+    font-size: 15em;
+    height: 30%;
+    background: url("img.png") center;
+}
+
+.text {
+    color: white;
+    background: black;
+    mix-blend-mode: multiply;
+}
+
+.text::before {
+    mix-blend-mode: normal;
+    position: absolute;
+    content: 'BALI';
+    text-shadow: 14px 14px 0px black, 15px 15px 0px white;
+}
